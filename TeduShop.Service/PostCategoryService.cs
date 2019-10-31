@@ -53,7 +53,7 @@ namespace TeduShop.Service
         }
 
         public PostCategory GetById(int id)
-        {
+        { 
             return _postCategoryRepository.GetSingleById(id);
         }
 
